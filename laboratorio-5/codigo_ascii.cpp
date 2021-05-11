@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-char variable;
+char caracter = 0;
 
-int main(){
-    printf("ingrese un carácter cualquiera");
-    scanf("%d", variable);
+int valor = 0;
+
+int main() {
+    printf("ingrese un carácter\n");
+    scanf("%c", & caracter);
+    valor = caracter;
+    printf("el carácter ingresado es representado por el valor de %i", valor);
     return 0;
+
 }
-
-
-
 
 
 
